@@ -18,6 +18,7 @@ O que disponibilizamos:
 - [Layout do Figma](https://www.figma.com/file/47pYu3yUYXQom7SERgJwC8/ibyte?node-id=125%3A2699);
 - [Página da VTEX](https://www.ibyte.com.br/?lid=9ad253bf-6893-4925-8540-403c57c951bb);
 - Adicionamos os arquivos `ibyte.teste.counter.js` e `ibyte.teste.counter.css` no nosso template, para que utilize algum programa de proxy (como o Fiddler) durante o desenvolvimento.
+- Olhando o código-fonte da página, verá que disponibilizamos um `div`, com a data e hora que a promoção deverá expirar, que está oculto e localizado próximo a área da prateleira. Após esse horário, toda a prateleira deverá ficar oculta (os produtos são ocultados via CMS, porém, o conteúdo ao redor (título e contador) deverão ser ocultados pelo seu código.
 
 O que esperamos:
 - Código limpo e entendível;
